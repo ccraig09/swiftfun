@@ -3,8 +3,8 @@
 //  Swift Fun
 //
 //  Created by Carlos Craig on 1/21/18.
-//  Copyright © 2018 Craig Inc. All rights reserved.
-//
+//  Copyright © 2018 Craig Inc. All rights reserved..
+// Hello im testing git
 
 import UIKit
 
