@@ -49,6 +49,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nSB-Hk-zbx">
+                                <rect key="frame" x="163" y="148" width="51" height="31"/>
+                            </switch>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -60,10 +63,13 @@
                             <constraint firstItem="sUf-3t-pWV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="YXs-13-hiQ"/>
                             <constraint firstItem="sUf-3t-pWV" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="b6W-y9-g1t"/>
                             <constraint firstItem="nWv-4h-02L" firstAttribute="top" secondItem="YlR-id-FT1" secondAttribute="bottom" constant="30" id="pfj-IX-Qdr"/>
+                            <constraint firstItem="nSB-Hk-zbx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tjc-6E-K2B"/>
+                            <constraint firstItem="YlR-id-FT1" firstAttribute="top" secondItem="nSB-Hk-zbx" secondAttribute="bottom" constant="30" id="zOx-AN-4BI"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="additionSwitch" destination="nSB-Hk-zbx" id="epM-xN-pVS"/>
                         <outlet property="bottomTextField" destination="nWv-4h-02L" id="EXn-w2-Th5"/>
                         <outlet property="myLabel" destination="sUf-3t-pWV" id="QS2-0W-HH7"/>
                         <outlet property="topTextField" destination="YlR-id-FT1" id="gOe-Pc-T7i"/>
